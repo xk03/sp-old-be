@@ -5,9 +5,9 @@ import pagination from "../utilities/pagination";
 import application from "../constants/application";
 import TelegramBot from "node-telegram-bot-api";
 
-const CHAT_ID_ONLINE = "-819869453";
-const CHAT_ID = "-792470087";
-const BOT_TOKEN = "5895336607:AAFZBy6gXSn-kOHyUAeUQKvUNLBkSc5AODU";
+const CHAT_ID_ONLINE = ""; // ADD HERE TELEGRAM ID
+const CHAT_ID = ""; // ADD HERE TELEGRAM ID
+const BOT_TOKEN = ""; // ADD HERE BOT TOKEN
 
 const bot = new TelegramBot(BOT_TOKEN, {polling: true});
 
