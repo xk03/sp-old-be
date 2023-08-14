@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
-const MONGO_URL = "mongodb://147.182.166.66:27017/fbae_app";
-// const MONGO_URL = "mongodb://localhost:27017/fbae_app";
+const MONGO_URL = "mongodb://localhost:27017/fbae_app";
 
 const connection = async () => {
   try {
